@@ -1,0 +1,63 @@
+{"books": [
+    {
+        "title": "Security as Code",
+        "image": "https://www.dbooks.org/img/books/1098127463s.jpg",
+        "author": "BK Sarthak Das, Virginia Chu",
+        "genre": "Education",
+        "publication_date" : "12/10/2019",
+        "summary": "DevOps engineers, developers, and security engineers have ever-changing roles to play in today&#039;s cloud native world. In order to build secure and resilient applications, you have to be equipped with s...",
+        "rating_review": "3.5/5",
+        "related_book_suggestions_images": ["Demystifying Internet of Things Security", "Managing Risk and Information Security"]
+    },
+    {
+        "title": "Security as Code",
+        "image": "https://www.dbooks.org/img/books/1098127463s.jpg",
+        "author": "BK Sarthak Das, Virginia Chu",
+        "genre": "Education",
+        "publication_date" : "12/10/2019",
+        "summary": "DevOps engineers, developers, and security engineers have ever-changing roles to play in today&#039;s cloud native world. In order to build secure and resilient applications, you have to be equipped with s...",
+        "rating_review": "4.3/5",
+        "related_book_suggestions_images": ["Demystifying Internet of Things Security", "Managing Risk and Information Security"]
+    },
+    {
+        "title": "Security as Code",
+        "image": "https://www.dbooks.org/img/books/1098127463s.jpg",
+        "author": "BK Sarthak Das, Virginia Chu",
+        "genre": "Education",
+        "publication_date" : "12/10/2019",
+        "summary": "DevOps engineers, developers, and security engineers have ever-changing roles to play in today&#039;s cloud native world. In order to build secure and resilient applications, you have to be equipped with s...",
+        "rating_review": "4/5",
+        "related_book_suggestions_images": ["Demystifying Internet of Things Security", "Managing Risk and Information Security"]
+    },
+    {
+        "title": "Security as Code",
+        "image": "https://www.dbooks.org/img/books/1098127463s.jpg",
+        "author": "BK Sarthak Das, Virginia Chu",
+        "genre": "Education",
+        "publication_date" : "12/10/2019",
+        "summary": "DevOps engineers, developers, and security engineers have ever-changing roles to play in today&#039;s cloud native world. In order to build secure and resilient applications, you have to be equipped with s...",
+        "rating_review": "4/5",
+        "related_book_suggestions_images": ["Demystifying Internet of Things Security", "Managing Risk and Information Security"]
+    },
+    {
+        "title": "Security as Code",
+        "image": "https://www.dbooks.org/img/books/1098127463s.jpg",
+        "author": "BK Sarthak Das, Virginia Chu",
+        "genre": "Education",
+        "publication_date" : "12/10/2019",
+        "summary": "DevOps engineers, developers, and security engineers have ever-changing roles to play in today&#039;s cloud native world. In order to build secure and resilient applications, you have to be equipped with s...",
+        "rating_review": "3.5/5",
+        "related_book_suggestions_images": ["Demystifying Internet of Things Security", "Managing Risk and Information Security"]
+    },
+    {
+        "title": "Security as Code",
+        "image": "https://www.dbooks.org/img/books/1098127463s.jpg",
+        "author": "BK Sarthak Das, Virginia Chu",
+        "genre": "Education",
+        "publication_date" : "12/10/2019",
+        "summary": "DevOps engineers, developers, and security engineers have ever-changing roles to play in today&#039;s cloud native world. In order to build secure and resilient applications, you have to be equipped with s...",
+        "rating_review": "4.5/5",
+        "related_book_suggestions_images": ["Demystifying Internet of Things Security", "Managing Risk and Information Security"]
+    }
+  ]
+}
