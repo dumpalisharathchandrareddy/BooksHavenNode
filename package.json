@@ -1,12 +1,12 @@
 {
-  "name": "job_application_system_node",
+  "name": "bookhaven",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index"
   },
-  "author": "",
+  "author": "Sharath",
   "license": "ISC",
   "dependencies": {
     "mongodb": "^5.3.0",

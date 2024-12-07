@@ -1,63 +1,185 @@
-{"books": [
-    {
-        "title": "Security as Code",
-        "image": "https://www.dbooks.org/img/books/1098127463s.jpg",
-        "author": "BK Sarthak Das, Virginia Chu",
-        "genre": "Education",
-        "publication_date" : "12/10/2019",
-        "summary": "DevOps engineers, developers, and security engineers have ever-changing roles to play in today&#039;s cloud native world. In order to build secure and resilient applications, you have to be equipped with s...",
-        "rating_review": "3.5/5",
-        "related_book_suggestions_images": ["Demystifying Internet of Things Security", "Managing Risk and Information Security"]
-    },
-    {
-        "title": "Security as Code",
-        "image": "https://www.dbooks.org/img/books/1098127463s.jpg",
-        "author": "BK Sarthak Das, Virginia Chu",
-        "genre": "Education",
-        "publication_date" : "12/10/2019",
-        "summary": "DevOps engineers, developers, and security engineers have ever-changing roles to play in today&#039;s cloud native world. In order to build secure and resilient applications, you have to be equipped with s...",
-        "rating_review": "4.3/5",
-        "related_book_suggestions_images": ["Demystifying Internet of Things Security", "Managing Risk and Information Security"]
-    },
-    {
-        "title": "Security as Code",
-        "image": "https://www.dbooks.org/img/books/1098127463s.jpg",
-        "author": "BK Sarthak Das, Virginia Chu",
-        "genre": "Education",
-        "publication_date" : "12/10/2019",
-        "summary": "DevOps engineers, developers, and security engineers have ever-changing roles to play in today&#039;s cloud native world. In order to build secure and resilient applications, you have to be equipped with s...",
-        "rating_review": "4/5",
-        "related_book_suggestions_images": ["Demystifying Internet of Things Security", "Managing Risk and Information Security"]
-    },
-    {
-        "title": "Security as Code",
-        "image": "https://www.dbooks.org/img/books/1098127463s.jpg",
-        "author": "BK Sarthak Das, Virginia Chu",
-        "genre": "Education",
-        "publication_date" : "12/10/2019",
-        "summary": "DevOps engineers, developers, and security engineers have ever-changing roles to play in today&#039;s cloud native world. In order to build secure and resilient applications, you have to be equipped with s...",
-        "rating_review": "4/5",
-        "related_book_suggestions_images": ["Demystifying Internet of Things Security", "Managing Risk and Information Security"]
-    },
-    {
-        "title": "Security as Code",
-        "image": "https://www.dbooks.org/img/books/1098127463s.jpg",
-        "author": "BK Sarthak Das, Virginia Chu",
-        "genre": "Education",
-        "publication_date" : "12/10/2019",
-        "summary": "DevOps engineers, developers, and security engineers have ever-changing roles to play in today&#039;s cloud native world. In order to build secure and resilient applications, you have to be equipped with s...",
-        "rating_review": "3.5/5",
-        "related_book_suggestions_images": ["Demystifying Internet of Things Security", "Managing Risk and Information Security"]
-    },
-    {
-        "title": "Security as Code",
-        "image": "https://www.dbooks.org/img/books/1098127463s.jpg",
-        "author": "BK Sarthak Das, Virginia Chu",
-        "genre": "Education",
-        "publication_date" : "12/10/2019",
-        "summary": "DevOps engineers, developers, and security engineers have ever-changing roles to play in today&#039;s cloud native world. In order to build secure and resilient applications, you have to be equipped with s...",
+{
+    "books": [
+      {
+        "title": "The White Tiger",
+        "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781416562603/the-white-tiger-9781416562603_hr.jpg",
+        "author": "Aravind Adiga",
+        "genre": "Fiction",
+        "publication_date": "10/06/2008",
+        "summary": "A dark and gripping tale about a poor Indian driver who rises to become a wealthy entrepreneur by committing a crime.",
         "rating_review": "4.5/5",
-        "related_book_suggestions_images": ["Demystifying Internet of Things Security", "Managing Risk and Information Security"]
-    }
-  ]
-}
+        "related_book_suggestions_images": ["The God of Small Things", "Shantaram"]
+      },
+      {
+        "title": "The Palace of Illusions",
+        "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1679444666i/1774836.jpg",
+        "author": "Chitra Banerjee Divakaruni",
+        "genre": "Mythology",
+        "publication_date": "08/10/2008",
+        "summary": "A retelling of the epic Mahabharata from the perspective of Draupadi, one of its central characters.",
+        "rating_review": "4.3/5",
+        "related_book_suggestions_images": ["The Binding Vine", "The Secret of the Blue Glass"]
+      },
+      {
+        "title": "2 States: The Story of My Marriage",
+        "image": "https://m.media-amazon.com/images/I/81ApqY6HZlL.jpg",
+        "author": "Chetan Bhagat",
+        "genre": "Romance",
+        "publication_date": "10/01/2009",
+        "summary": "A story about a couple from two different states of India trying to overcome cultural differences to make their relationship work.",
+        "rating_review": "4.0/5",
+        "related_book_suggestions_images": ["One Night @ the Call Center", "Five Point Someone"]
+      },
+      {
+        "title": "The God of Small Things",
+        "image": "https://vacuouswastrel.files.wordpress.com/2010/09/the-god-of-small-things.jpg?w=640",
+        "author": "Arundhati Roy",
+        "genre": "Literary Fiction",
+        "publication_date": "06/16/1997",
+        "summary": "Set in Kerala, this novel explores the lives of fraternal twins and the complexities of family relationships in a divided society.",
+        "rating_review": "4.6/5",
+        "related_book_suggestions_images": ["The Ministry of Utmost Happiness", "The White Tiger"]
+      },
+      {
+        "title": "Pride and Prejudice in Bollywood",
+        "image": "https://upload.wikimedia.org/wikipedia/en/b/b2/Bride-and-prejudice.jpeg",
+        "author": "Rupali Gupta",
+        "genre": "Romance",
+        "publication_date": "03/25/2015",
+        "summary": "A fun contemporary romance novel that follows the life of a modern Indian girl inspired by the iconic classic 'Pride and Prejudice'.",
+        "rating_review": "3.9/5",
+        "related_book_suggestions_images": ["The Wedding Photographer", "The Zoya Factor"]
+      },
+      {
+        "title": "The Immortals of Meluha",
+        "image": "https://img1.od-cdn.com/ImageType-100/0293-1/%7B76DE5017-EC8E-46DB-AC2E-68CCBFD92145%7DIMG100.JPG",
+        "author": "Amish Tripathi",
+        "genre": "Mythology",
+        "publication_date": "02/28/2010",
+        "summary": "A retelling of the legend of Lord Shiva in an epic fantasy adventure, exploring his origins and his rise to power.",
+        "rating_review": "4.4/5",
+        "related_book_suggestions_images": ["The Secret of the Nagas", "Scion of Ikshvaku"]
+      },
+      {
+        "title": "A Fine Balance",
+        "image": "https://m.media-amazon.com/images/I/51Z2kyna--L._AC_UF1000,1000_QL80_.jpg",
+        "author": "Rohinton Mistry",
+        "genre": "Historical Fiction",
+        "publication_date": "05/22/1995",
+        "summary": "A tale of four lives intertwined during the political turmoil of India in the 1970s, filled with warmth and tragedy.",
+        "rating_review": "4.7/5",
+        "related_book_suggestions_images": ["Such a Long Journey", "Family Matters"]
+      },
+      {
+        "title": "The Shiva Trilogy",
+        "image": "https://m.media-amazon.com/images/I/81MiYWNfi8L._AC_UF1000,1000_QL80_.jpg",
+        "author": "Amish Tripathi",
+        "genre": "Mythology",
+        "publication_date": "05/18/2010",
+        "summary": "A series of books based on the life and journey of Shiva, the legendary figure of Indian mythology, set in a fictional world.",
+        "rating_review": "4.5/5",
+        "related_book_suggestions_images": ["The Oath of the Vayuputras", "The Immortals of Meluha"]
+      },
+      {
+        "title": "The Cuckoo's Calling",
+        "image": "https://m.media-amazon.com/images/I/91DhR4JxedL._UF1000,1000_QL80_.jpg",
+        "author": "Robert Galbraith",
+        "genre": "Mystery",
+        "publication_date": "04/30/2013",
+        "summary": "A private investigator named Cormoran Strike solves the mystery behind a supermodel's suicide in this thrilling detective novel.",
+        "rating_review": "4.1/5",
+        "related_book_suggestions_images": ["The Silkworm", "Career of Evil"]
+      },
+      {
+        "title": "The Alchemist",
+        "image": "https://m.media-amazon.com/images/I/71NpZx6bmtL._AC_UF1000,1000_QL80_.jpg",
+        "author": "Paulo Coelho",
+        "genre": "Self-Help",
+        "publication_date": "05/01/1988",
+        "summary": "A philosophical novel about the journey of a shepherd named Santiago, who travels in search of treasure and finds much more than he expected.",
+        "rating_review": "4.8/5",
+        "related_book_suggestions_images": ["Brida", "The Pilgrimage"]
+      },
+      {
+        "title": "The Space Between Us",
+        "image": "https://m.media-amazon.com/images/I/91GvLlF9YtL._UF1000,1000_QL80_.jpg",
+        "author": "Thrity Umrigar",
+        "genre": "Literary Fiction",
+        "publication_date": "09/13/2005",
+        "summary": "A compelling story of love, class, and cultural differences set against the backdrop of contemporary India.",
+        "rating_review": "4.3/5",
+        "related_book_suggestions_images": ["If Today Be Sweet", "The Weight of Heaven"]
+      },
+      {
+        "title": "Sons of the Soil",
+        "image": "https://m.media-amazon.com/images/M/MV5BZGI2YzY3MTEtOTg0OC00YTk2LTkzMTQtY2MxNTA4ODg2YzU0XkEyXkFqcGc@._V1_.jpg",
+        "author": "Pradeep Magazine",
+        "genre": "Sports",
+        "publication_date": "11/11/2014",
+        "summary": "An in-depth exploration of the Indian cricket team’s psyche and the growing influence of cricket in India's modern culture.",
+        "rating_review": "4.0/5",
+        "related_book_suggestions_images": ["Playing It My Way", "Cricket World Cup"]
+      },
+      {
+        "title": "The Secret of the Nagas",
+        "image": "https://m.media-amazon.com/images/I/51QFbnM30SL._UF1000,1000_QL80_.jpg",
+        "author": "Amish Tripathi",
+        "genre": "Mythology",
+        "publication_date": "08/15/2011",
+        "summary": "The second book in the Shiva Trilogy, continuing the quest of Shiva to uncover the truth about the Nagas, a mythical and ancient race.",
+        "rating_review": "4.5/5",
+        "related_book_suggestions_images": ["The Immortals of Meluha", "Scion of Ikshvaku"]
+      },
+      {
+        "title": "Asterix in India",
+        "image": "https://m.media-amazon.com/images/I/81dek85GJ5L._AC_UF1000,1000_QL80_.jpg",
+        "author": "René Goscinny",
+        "genre": "Comic",
+        "publication_date": "04/06/2010",
+        "summary": "A fun comic series that follows the adventures of Asterix and his tribe as they travel to India in search of a medicinal herb.",
+        "rating_review": "4.2/5",
+        "related_book_suggestions_images": ["Asterix at the Olympic Games", "Asterix in Britain"]
+      },
+      {
+        "title": "The Four-Hour Workweek",
+        "image": "https://m.media-amazon.com/images/I/61xpaBcQkcL.jpg",
+        "author": "Tim Ferriss",
+        "genre": "Self-Help",
+        "publication_date": "03/24/2007",
+        "summary": "Tim Ferriss presents an unconventional way of working and living to help you design the lifestyle you desire.",
+        "rating_review": "4.7/5",
+        "related_book_suggestions_images": ["The 4-Hour Body", "Tools of Titans"]
+      },
+      {
+        "title": "Sita: Warrior of Mithila",
+        "image": "https://m.media-amazon.com/images/I/61HK5Tm1QyL._AC_UF1000,1000_QL80_.jpg",
+        "author": "Amish Tripathi",
+        "genre": "Mythology",
+        "publication_date": "05/20/2017",
+        "summary": "A retelling of the Ramayana from the perspective of Sita, highlighting her strength, courage, and wisdom.",
+        "rating_review": "4.6/5",
+        "related_book_suggestions_images": ["The Secret of the Nagas", "The Immortals of Meluha"]
+      },
+      {
+        "title": "The Last Lecture",
+        "image": "https://m.media-amazon.com/images/I/613Jhj+HirL.jpg",
+        "author": "Randy Pausch",
+        "genre": "Motivation",
+        "publication_date": "04/01/2008",
+        "summary": "A moving and inspiring account of Randy Pausch's lecture, sharing lessons on achieving childhood dreams and living life to the fullest.",
+        "rating_review": "4.8/5",
+        "related_book_suggestions_images": ["Tuesdays with Morrie", "The Power of Positive Thinking"]
+      },
+      {
+        "title": "The Girl with the Louding Voice",
+        "image": "https://m.media-amazon.com/images/I/81F6Tlp00gL.jpg",
+        "author": "Abi Daré",
+        "genre": "Fiction",
+        "publication_date": "04/01/2020",
+        "summary": "A powerful and inspiring story about a young Nigerian girl who strives to find her voice and fight for her rights in a patriarchal society.",
+        "rating_review": "4.4/5",
+        "related_book_suggestions_images": ["The Zahir", "The Kite Runner"]
+      }
+    ]
+  }
+  
