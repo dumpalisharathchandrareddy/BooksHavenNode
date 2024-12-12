@@ -30,13 +30,13 @@ const server = http.createServer(async (req, res) => {
         });
         // Api Url 
     } else if (req.url === '/api') {
-        res.writeHead(200, { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' });    //Can access from all origins
+        res.writeHead(200, { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' });    //CORS - Can access from all origins
         const uri = `mongodb+srv://sharathchandrareddydumpali:RzYycpwr3EQhQFKx@cluster0.5v8ee.mongodb.net/BooksDB?retryWrites=true&w=majority`; // MongoDB connect Url
         const client = new MongoClient(uri);
         try {
             await client.connect();
             let response = await getDataFromMongo(client)
-            res.end(JSON.stringify(response)) // change the data to strings from objects or arrays
+            res.end(JSON.stringify(response)) // change the data to strings from objects or arrays other datatype
         } catch (e) {
             console.error(e);
         } finally {
@@ -59,6 +59,7 @@ async function getDataFromMongo(client) {
         return results[0];
     }
 }
-// Port either 4040 or any available port in the render or netlify
+
+// Port either 4040 in localhost or any available port in the render or netlify online.
 const PORT = process.env.PORT || 4040;
 server.listen(PORT, () => console.log(`Our server is running on port: ${PORT}`));
