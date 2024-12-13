@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sharath Chandra Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <style>
     /* body */
 body {
@@ -14,36 +16,40 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-* {
+*{
     box-sizing: border-box;
 }
 
-div {
+div{
     margin: 0 auto;
+    padding: 0;
     text-align: center;
+    max-width: 1280px;
 }
+
 
 h1, h2, h3 {
     color: #333333;
-    margin-top: 0;
+    margin-top:0;
 }
 
 p {
-    color: white;
+    color:white;
+
 }
 
 a {
     color: #E91E63;
     text-decoration: none;
-}
 
-a:hover {
+}
+a:hover{
     text-decoration: underline;
 }
 
 img {
     width: 150px;
-    height: auto;
+    height: 150px;
 }
 
 ul {
@@ -53,22 +59,8 @@ ul {
     text-align: center;
 }
 
-
-body {
-    display: grid;
-    grid-template-rows: repeat(8, auto);
-    grid-template-areas: 
-    "header"
-    "Main-section"
-    "about-skills-section"
-    "Projects-section"
-    "certifications-experience-section"
-    "education-section"
-    "blogs-contact-section"
-    "footer";
-}
-
 /* Header */
+
 header {
     background-color: #3F51B5;
     color: white;
@@ -77,7 +69,7 @@ header {
     box-shadow: 0 4px 6px rgb(178, 178, 178);
 }
 
-.portfolio-header {
+.portfolio-header{
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
@@ -85,49 +77,44 @@ header {
 }
 
 /* nav bar */
-nav ul{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    margin-top: 10px;
-    gap: 10px;
-}
-nav ul li {
 
+nav ul li{
+    display: inline-block;
     text-align: center;
-
+    margin: 10px;
     color: #fef0ec;
 }
 
-nav ul li a {
+nav ul li a{
     color: white;
     text-decoration: none;
     font-size: 18px;
 }
 
-nav ul li a:hover {
+nav ul li a:hover{
     color: yellow;
     text-decoration: underline;
 }
 
 /* Main-section */
-.Main-section {
+.Main-section{
     background: linear-gradient(120deg, #FF5722 40%, #FFC107);
     color: white;
-    padding: 80px 25px;
+    padding: 80px 20px;
 }
-
-.Main-section h1 {
+.Main-section h1{
     font-size: 48px;
     font-weight: bold;
+
 }
 
-.Main-section p {
+.Main-section p{
     font-size: 18px;
-    margin-top: 20px; 
+    margin-top:20px; 
     color: white;
 }
 
-.Go-to-git {
+.Go-to-git{
     background-color: #E91E63;
     color: white;
     padding: 15px 30px;
@@ -137,88 +124,79 @@ nav ul li a:hover {
     font-weight: bold;
     font-size: 18px;
     box-shadow: 0 4px 6px rgb(178, 178, 178);
+
 }
 
-.Go-to-git:hover {
+.Go-to-git:hover{
     background-color: #FFC107;
     color: black;
 }
 
 /* About and Skills Section */
 .about-skills-section{
-    padding: 60px 25px;
+    padding: 60px 20px;
     background-color: #E0F7FA;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    grid-template-areas: 
-    "about-section skills-section";
+    margin: auto;
+    text-align: center;
 }
 
-.about-section{
-    padding: 25px;
-    grid-area: about-section;
-}
-.skills-section{
-    padding: 20px;
-    grid-area: skills-section;
+.about-section,.skills-section{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 500px;
+    text-align: center;
+    margin: 40px;
+    
 }
 
-.about-section img {
-    width: 150px;
-    height: 150px;
+.about-section img{
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
-    object-fit: cover; 
+    object-fit: cover;
 }
 
 .about-section h3 {
+    text-align: center;
     margin-top: 10px;
     color: #00796B;
 }
 
 .about-section p {
-    margin: 40px;
     color: #004D40;
-    text-align: center;
 }
 
-.skills-section ul li {
+.skills-section ul li{
     background-color: #B2DFDB;
     color: #004D40;
-    padding: 10px 150px;
+    padding:10px;
     margin: 10px;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgb(178, 178, 178);
 }
 
 /* Projects Section */
-.projects-section {
-    padding: 60px 25px;
+.projects-section{
+    padding: 60px 20px;
     background-color: #FFF3E0;
-    display: grid; /* Not neccessary, I just make it do it grid container*/
 }
 
-.project-section-class {
-    padding: 0px 40px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    gap: 0px 40px; /*Since I made two classes for wrapping I don't want gap on top and bottom which makes it looks so bad */
-    grid-template-areas: 
-    "project-item-1 project-item-2 project-item-3";
-}
-
-.project-section-class h2 {
-    grid-column: 1 / 4;
-    text-align: center;
-}
-
-.project-item {
-    padding: 25px;
+.project-item{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 1%;
+    padding: 20px;
     box-shadow: 0 4px 6px grey;
+    min-width: 300px;
+    overflow: hidden;
     background-color: white;
+    min-height: 480px;
+
 }
 
-.project-item img {
+.project-item img{
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -227,54 +205,33 @@ nav ul li a:hover {
 
 .project-item h3 {
     color: #BF360C;
-    text-align: center;
+    min-width: 80px;
 }
 
 .project-item p {
+    max-height: 150px;
     min-height: 80px;
     color: #5D4037;
     overflow: hidden;
-    text-overflow: ellipsis; /* learned about this in CSS text overflow properties to make it not overflow, and look clean if it does*/
 }
+
 /* Certifications and Experience Section */
 .certifications-experience-section {
     background-color: #E8EAF6;
-    padding: 60px 25px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    "certifications-section experience-section";
-    gap:40px;
-}
-
-.certifications-section, .experience-section {
-    /* display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr)); */
-    padding: 0px 45px;
-    border-radius: 8px;
+    padding: 60px 20px;
+    text-align: center;
     width: 100%;
-    
 }
 
-/* .certifications-section{
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    "certification-item-1"
-    "certification-item-2";
+.certifications-section,
+.experience-section {
+    width: 45%; 
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1%;
+    text-align: center;
+    min-width: 300px;
 }
-
-.experience-section{
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    "experience-item-1"
-    "experience-item-2";
-} */
-
 
 .certification-item,
 .experience-item {
@@ -284,56 +241,41 @@ nav ul li a:hover {
     border-radius: 8px;
     color: #1A237E;
     box-shadow: 0 4px 6px rgb(178, 178, 178);
-    height: 40%;
+    
 }
 
-.certifications-section h3,
-.experience-section h3 {
+.certifications-section h2,
+.experience-section h2 {
     margin-bottom: 15px;
     color: #3F51B5;
 }
 
-
-
 .certification-item p,
 .experience-item p {
+    min-height: 45px;
     color: #303F9F;
 }
 
 /* Education Section */
 .education-section {
     background-color: #E8F5E9;
-    padding: 60px 25px;
+    padding: 60px 20px;
     text-align: center;
-    display: grid; 
-}
-
-.education-section-class {
-
-    display: grid; 
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0px 40px; 
-    grid-template-areas: 
-    "education-item-1 education-item-2 education-item-3";
-    padding: 0px 40px;
-}
-
-.education-section-class h2{
-    grid-column: 1 / 4;
-    text-align: center;
-
 }
 
 .education-item {
+    width: 30%; 
+    display: inline-block;
     background-color: #FFFFFF;
-    padding: 25px;
-    margin: 10px;
+    padding: 20px;
+    margin: 10px 1%;
     border-radius: 8px;
     vertical-align: top;
     min-height: 100px;
     box-shadow: 0 4px 6px rgb(178, 178, 178);
+    overflow: hidden;
+    
 }
-
 
 .education-item h3 {
     color: #2E7D32;
@@ -344,39 +286,32 @@ nav ul li a:hover {
 }
 
 /* Blogs and Contact Form Section */
-/* Blogs and Contact Form Section */
 .blogs-contact-section {
     background-color: #F3E5F5;
-    padding: 60px 25px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two equal columns: Blogs and Contact Form side by side */
-    gap:0px 20px; /* Space between the sections */
+    padding: 60px 20px;
     text-align: center;
     width: 100%;
+    margin: 0 auto;
 }
 
 .blogs-section,
 .contact-section {
-    display: grid;
-    grid-template-columns: 1fr; /* Single column for content in each section */
-    gap: 20px; /* Space between items inside each section */
-    min-width: 300px;
+    width: 45%; 
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1%;
+    text-align: center;
 }
-
 
 .blog-item {
     background-color: white;
-    padding: 25px;
+    padding: 20px;
+    margin-bottom: 15px;
     border-radius: 8px;
     color: #4A148C;
     box-shadow: 0 4px 6px rgb(178, 178, 178);
-    display: grid; /* Grid layout for each blog item */
-    text-align: center;
-    height: 100%; /* Making all the blog item are of same height */
-    width:100%; /* Making all the blog item are of same width */
 }
 
-/* Style for blog headings and text */
 .blog-item h3 {
     color: #6A1B9A;
 }
@@ -385,32 +320,28 @@ nav ul li a:hover {
     color: #4A148C;
 }
 
-/* Read more button */
 .blog-item a.read-more {
     padding: 6px 12px;
     background-color: #8E24AA;
     color: white;
     border-radius: 5px;
+    display: inline-block;
     text-decoration: none;
 }
 
-/* Contact form section */
 .contact-form-tile {
     background-color: #FFFFFF;
     padding: 20px;
     border-radius: 8px;
     color: #4A148C;
-    box-shadow: 0 4px 6px rgb(178, 178, 178);
-    display: grid;
-    gap: 15px; /* Space between form elements */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Input and textarea fields styling with gaps */
 .contact-form-tile input,
 .contact-form-tile textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 15px; /* Gap between contact form input fields */
+    margin-bottom: 15px;
     border-radius: 5px;
     border: 1px solid #CE93D8;
     background-color: #F3E5F5;
@@ -421,9 +352,7 @@ nav ul li a:hover {
     color: white;
     padding: 10px;
     border-radius: 5px;
-    cursor: pointer;
 }
-
 
 /* Footer */
 footer {
@@ -458,35 +387,33 @@ footer a:hover {
     box-shadow: 0 4px 6px rgb(178, 178, 178);
     opacity: .60;
 }
-.go-to-top:hover {
+.go-to-top:hover{
     background-color: #223fe2;
     color: white;
 }
 </style>
-
-</head>
 <body>
+
+    <!-- Go to Top button which references to the top of the page -->
+    <a id="top-anchor"></a>
 
     <!-- Header Section -->
     <header>
-
-    <!-- Go to Top button which references to the top of the page -->
-        <a id="top-anchor"></a>
-            <div class="page-wrapper" id="page-wrapper">
-                <div class="portfolio-header">Sharath Chandra's Portfolio</div>
-                <nav>
-                    <ul>
-                        <li><a href="#about-me-section">About Me</a></li>
-                        <li><a href="#skills-section">Skills</a></li>
-                        <li><a href="#project-section-class">Projects</a></li>
-                        <li><a href="#certifications-section">Certifications</a></li>
-                        <li><a href="#experience-section">Experience</a></li>
-                        <li><a href="#education-section-class">Education</a></li>
-                        <li><a href="#blogs-section">Blogs</a></li>
-                        <li><a href="#contact-section">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
+        <div class="page-wrapper">
+            <div class="portfolio-header">Sharath Chandra's Portfolio</div>
+            <nav>
+                <ul>
+                    <li><a href="#about-me-section">About Me</a></li>
+                    <li><a href="#skills-section">Skills</a></li>
+                    <li><a href="#project-section">Projects</a></li>
+                    <li><a href="#certifications-section">Certifications</a></li>
+                    <li><a href="#experience-section">Experience</a></li>
+                    <li><a href="#education-section-class">Education</a></li>
+                    <li><a href="#blogs-section">Blogs</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <!-- Main Section which highlights my profile and it takes to Github to explore My projects -->
@@ -499,40 +426,40 @@ footer a:hover {
     </section>
 
     <!-- About and Skills Section -->
-    <section class="about-skills-section" id="about-skills-section">
-            <div class="about-section" id="about-me-section">
-                <h2>About Me</h2>
-                <img src="https://github.com/dumpalisharathchandrareddy/Portfolio-Grid/blob/main/images/profile.jpg?raw=true" alt="Profile Picture">
-                <h3>Sharath Chandra Reddy Dumpali</h3>
-                <p>I am a Computer Science Engineer with experience in machine learning and mobile app development.</p>
-            </div>
-            <div class="skills-section" id="skills-section">
-                <h2>Skills</h2>
-                <ul>
-                    <li>Python</li>
-                    <li>Machine Learning</li>
-                    <li>Flutter</li>
-                    <li>MySQL</li>
-                    <li>HTML & CSS</li>
-                </ul>
-            </div>
+    <section class="about-skills-section">
+        <div class="about-section" id="about-me-section">
+            <h2>About Me</h2>
+            <img src="https://github.com/dumpalisharathchandrareddy/Portfolio-Grid/blob/main/images/profile.jpg?raw=true" alt="Profile Picture">
+            <h3>Sharath Chandra Reddy Dumpali</h3>
+            <p>I am a Computer Science Engineer with experience in machine learning and mobile app development.</p>
+        </div>
+        <div class="skills-section" id="skills-section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>Machine Learning</li>
+                <li>Flutter</li>
+                <li>MySQL</li>
+                <li>HTML & CSS</li>
+            </ul>
+        </div>
     </section>
 
     <!-- Projects Section -->
-    <section class="projects-section" id="projects-section">   
-        <div class="project-section-class" id="project-section-class">
+    <section class="projects-section">   
+        <div class="project-section" id="project-section">
             <h2>Projects</h2>
-            <div class="project-item" id="project-item-1">
+            <div class="project-item">
                 <img src="https://github.com/dumpalisharathchandrareddy/Portfolio-Grid/blob/main/images/profile.jpeg?raw=true" alt="Project 1">
                 <h3>Task Reminder Application</h3>
                 <p>Designed and developed a task reminder application using Flutter.</p>
             </div>
-            <div class="project-item" id="project-item-2">
+            <div class="project-item">
                 <img src="https://github.com/dumpalisharathchandrareddy/Portfolio-Grid/blob/main/images/profile.jpeg?raw=true" alt="Project 2">
                 <h3>Human Activity Recognition</h3>
                 <p>Used machine learning techniques to recognize human activity via smartphone sensors.</p>
             </div>
-            <div class="project-item" id="project-item-3">
+            <div class="project-item">
                 <img src="https://github.com/dumpalisharathchandrareddy/Portfolio-Grid/blob/main/images/profile.jpeg?raw=true" alt="Project 3">
                 <h3>Weather Forecast App</h3>
                 <p>Developed a cross-platform weather forecast app using Flutter and API integration.</p>
@@ -541,25 +468,23 @@ footer a:hover {
     </section>
 
     <!-- Certifications and Experience Section -->
-    <section class="certifications-experience-section" id="certifications-experience-section">
-        <!-- <div class="certifications-experience-section-class" id="certifications-experience-section-class"> -->
-            <div class="certifications-section" id="certifications-section">
-                <h2>Certifications</h2>
-                <div class="certification-item" id="certification-item-1">
-                    <p>Machine Learning Training at SmartBridge</p>
-                </div>
-                <div class="certification-item" id="certification-item-2">
-                    <p>Flutter Development Program</p>
-                </div>
+    <section class="certifications-experience-section">
+        <div class="certifications-section" id="certifications-section">
+            <h3>Certifications</h3>
+            <div class="certification-item">
+                <p>Machine Learning Training at SmartBridge</p>
             </div>
-            <div class="experience-section" id="experience-section">
-                <h2>Experience</h2>
-                <div class="experience-item" id="experience-item-1">
-                    <p>Worked on an E-commerce application project using Flutter at Flipkart Grid.</p>
-                </div>
-                <div class="experience-item" id="experience-item-2">
-                    <p>Participated in R-Programming Training at MSME Technology Development Centre.</p>
-                </div>
+            <div class="certification-item">
+                <p>Flutter Development Program</p>
+            </div>
+        </div>
+        <div class="experience-section" id="experience-section">
+            <h3>Experience</h3>
+            <div class="experience-item">
+                <p>Worked on an E-commerce application project using Flutter at Flipkart Grid.</p>
+            </div>
+            <div class="experience-item">
+                <p>Participated in R-Programming Training at MSME Technology Development Centre.</p>
             </div>
         </div>
     </section>
@@ -568,15 +493,15 @@ footer a:hover {
     <section class="education-section" id="education-section">       
         <div class="education-section-class" id="education-section-class">
             <h2>Education</h2>
-            <div class="education-item" id="education-item-1">
+            <div class="education-item">
                 <h3>2024 - 2025</h3>
                 <p>Master of Science in Computer Science (Expected 2025), University of New Haven.</p>
             </div>
-            <div class="education-item" id="education-item-2">
+            <div class="education-item">
                 <h3>2019 - 2023</h3>
                 <p>Bachelor of Technology in Computer Science, Sathyabama Institute of Science and Tech.</p>
             </div>
-            <div class="education-item" id="education-item-3">
+            <div class="education-item">
                 <h3>2017 - 2019</h3>
                 <p>Completed Intermediate Education at Narayana Junior College(IIT Campus, Hyderabad).</p>
             </div>
